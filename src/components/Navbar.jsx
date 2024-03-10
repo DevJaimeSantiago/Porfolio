@@ -28,7 +28,7 @@ export function Navbar() {
   return (
     <div className='flex justify-between items-center w-full h-20 fixed text-white bg-gradient-to-r from-[#ed00ff] to-fuchsia-700 px-4'>
       <div>
-        <h1 className='text-5xl font-signature ml-2'>DevJaimeSantiago</h1>
+        <h1 className='text-5xl font-signature ml-2'>JaimeSantiago</h1>
       </div>
 
       <ul className='hidden md:flex'>
