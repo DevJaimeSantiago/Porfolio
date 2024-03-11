@@ -12,13 +12,13 @@ export function Home() {
             <h2 className='text-3xl sm:text-7xl font-bold'>Hola! Soy: </h2>
             <h3 className='text-2xl sm:text-6xl font-bold'>Desarrollador FrontEnd</h3>
           </header>
-          <p className='text-center md:text-left text-base sm:text-xl py-4'>
+          <p className='text-center md:text-left text-xl py-4'>
             Tengo experiencia creando aplicaciones web. Actualmente me encanta
             trabajar utilizando tecnologías como React, Tailwind y Material UI.
           </p>
 
           <div>
-            <button className='group w-fit text-base sm:text-lg px-6 py-3 my-2 flex items-center rounded-md shadow-lg bg-fuchsia-700 cursor-pointer'>
+            <button className='group w-fit text-lg px-6 py-3 my-2 flex items-center rounded-md shadow-lg bg-fuchsia-700 cursor-pointer'>
               Portfolio
               <span className='group-hover:rotate-90 duration-300'>
                 <MdOutlineKeyboardArrowRight size={25} className='ml-1' />
@@ -31,7 +31,7 @@ export function Home() {
           <img
             src={HeroImage}
             alt='mi perfil'
-						className='rounded-2xl mx-auto md:mb-0 w-2/3 md:w-full'
+						className='rounded-2xl mx-auto w-2/3 md:w-full'
           />
         </div>
       </div>
