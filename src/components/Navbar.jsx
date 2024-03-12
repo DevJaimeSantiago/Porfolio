@@ -26,9 +26,9 @@ export function Navbar() {
   ]
 
   return (
-    <div className='flex justify-between items-center w-full h-20 fixed text-white bg-gradient-to-r from-[#ed00ff] to-fuchsia-700 px-4'>
+    <div className='flex justify-between items-center w-full h-16 fixed text-white bg-gradient-to-r from-[#ed00ff] to-fuchsia-700 px-4'>
       <div>
-        <h1 className='text-5xl font-signature ml-2'>JaimeSantiago</h1>
+        <h1 className='text-4xl font-signature ml-2'>DevJaimeSantiago</h1>
       </div>
 
       <ul className='hidden md:flex'>
@@ -44,7 +44,7 @@ export function Navbar() {
       <div
         onClick={handleNav}
         className='cursor-pointer pr-4 z-10 text-gray-100 md:hidden '>
-        {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
+        {nav ? <FaTimes size={20} /> : <FaBars size={20} />}
       </div>
 
       {nav && (
@@ -52,7 +52,7 @@ export function Navbar() {
           {Links.map(({ id, link }) => (
             <li
               key={id}
-              className='px-4 cursor-pointer capitalize py-6 text-3xl'>
+              className='px-3 cursor-pointer capitalize py-6 text-xl'>
               {link}
             </li>
           ))}
