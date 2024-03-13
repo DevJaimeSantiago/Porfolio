@@ -18,7 +18,7 @@ export function Home() {
           </p>
 
           <div>
-            <button className='group w-fit text-lg px-6 py-3 my-2 flex items-center rounded-md shadow-md bg-fuchsia-700 cursor-pointer'>
+            <button className='group w-fit text-lg px-6 py-3 my-2 flex items-center rounded-md shadow-md shadow-fuchsia-300 bg-fuchsia-700 cursor-pointer'>
               Portfolio
               <span className='group-hover:rotate-90 duration-300'>
                 <MdOutlineKeyboardArrowRight size={25} className='ml-1' />
@@ -31,7 +31,7 @@ export function Home() {
           <img
             src={HeroImage}
             alt='mi perfil'
-						className='rounded-2xl mx-auto w-2/3 md:w-full'
+						className='rounded-2xl mb-5 sm:mb-0 mx-auto w-2/3 md:w-full'
           />
         </div>
       </div>

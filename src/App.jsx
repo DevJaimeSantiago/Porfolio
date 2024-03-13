@@ -1,6 +1,7 @@
 // components
 import { Home } from "./components/Home/Home";
 import { Navbar } from "./components/Navbar";
+import { Portfolio } from "./components/Portfolio/Portfolio";
 import { SocialLinks } from "./components/SocialLinks/SocialLinks";
 
 export function App() {
@@ -8,6 +9,7 @@ export function App() {
     <div>
       <Navbar />
 			<Home />
+			<Portfolio />
 
 			<SocialLinks />
     </div>
