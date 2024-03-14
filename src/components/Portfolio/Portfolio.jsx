@@ -26,7 +26,7 @@ export function Portfolio() {
           {portfolios.map(({ id, src, demo, code }) => (
             <div
               key={id}
-              className='border-[1px] border-white shadow-lg shadow-fuchsia-300 rounded-lg'>
+              className='border-[1px] border-black shadow-lg shadow-fuchsia-300 rounded-lg'>
               <img
                 src={src}
                 alt='mi portfolio'

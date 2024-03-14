@@ -11,7 +11,7 @@ export function Navbar() {
   const Links = [
     {
       id: 1,
-      link: 'Home',
+      link: 'Inicio',
     },
 
     {
@@ -21,7 +21,7 @@ export function Navbar() {
 
     {
       id: 3,
-      link: 'Experience',
+      link: 'Habilidades',
     },
   ]
 
