@@ -12,7 +12,7 @@ export function Portfolio() {
 
   return (
     <div
-      name='portfolio'
+      name='Portfolio'
       className='bg-gradient-to-r from-[#ed00ff] to-fuchsia-700 w-full text-white md:h-screen'>
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
         <header className='pb-8'>

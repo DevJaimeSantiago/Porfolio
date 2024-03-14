@@ -47,7 +47,7 @@ export function Skills() {
   ]
   return (
     <div
-      name='skills'
+      name='Habilidades'
       className='bg-gradient-to-r from-[#ed00ff] to-fuchsia-700 w-full h-auto sm:h-screen'>
       <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
         <header>
@@ -55,7 +55,7 @@ export function Skills() {
             Habilidades
           </p>
           <p className='text-lg py-6'>
-            Estas son las technologies con las que trabajado.
+            Estas son las technologias con las que he trabajado.
           </p>
         </header>
 
