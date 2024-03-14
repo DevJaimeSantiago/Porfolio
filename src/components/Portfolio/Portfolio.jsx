@@ -5,7 +5,7 @@ export function Portfolio() {
     {
       id: 1,
       src: ScreenPortfolio,
-      demo: 'https://porfolio-devjaimesantiago.netlify.app/',
+      demo: 'https://portfolio-devjaimesantiago.netlify.app/',
       code: 'https://github.com/DevJaimeSantiago/Porfolio',
     },
   ]
